@@ -1,0 +1,37 @@
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings:
+        "liga" 1,
+        "calt" 1,
+        "dlig" 1,
+        "ss01" 1,
+        "ss02" 1,
+        "ss07" 1,
+        "ss08" 1,
+        "cv10" 1,
+        "cv12" 1,
+        "cv13" 1;
+}
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
+
+.page {
+    padding: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start; /* Aligns horizontally to the left */
+    align-items: flex-start; /* Aligns vertically to the top */
+}
+
+.black {
+    background-color: black;
+    color: white;
+    max-height: min-content;
+}
+
+h1 {
+    font-size: 3rem;
+}
