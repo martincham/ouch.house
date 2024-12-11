@@ -1,1 +1,1 @@
-# ouch.house
+# [ouch.house](https://ouch.house)
